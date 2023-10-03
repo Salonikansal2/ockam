@@ -21,8 +21,8 @@ Learn more at https://docs.ockam.io/reference/command
 
 Feedback:
 
-
-
+If you have questions, as you explore, join us on the contributors
+discord channel https://discord.gg/bewvnm6zqS
 ";
 
 static SYNTAX_SET: Lazy<SyntaxSet> = Lazy::new(SyntaxSet::load_defaults_newlines);
