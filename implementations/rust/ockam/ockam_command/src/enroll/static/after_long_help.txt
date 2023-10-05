@@ -3,4 +3,4 @@ $ ockam enroll
 ```
 Troubleshoot:
 
-If you have problems with your enrollment then you can run `ockam reset -y && ockam enroll` to delete your local state and start again.
+If you have problems with your enro  cllment then you can run `ockam reset -y && ockam enroll` to delete your local state and start again.
