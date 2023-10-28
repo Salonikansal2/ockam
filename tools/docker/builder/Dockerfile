@@ -83,6 +83,8 @@ RUN set -xe; \
     rm -rf "${NODEJS_PACKAGE}"; \
     PATH="${NODEJS_HOME}/bin:$PATH"; \
 # Setup Commitlint
+ npm --global config set user root && \ 
+ npm install --global @commitlint/cli@${COMMITLINT_VERSION}; \ 
 # set user to root in order to be able to install global dependencies
     npm --global config set user root && \
     npm install --global @commitlint/cli@${COMMITLINT_VERSION}; \
